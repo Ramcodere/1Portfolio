@@ -1,0 +1,72 @@
+*{ padding: 0; margin: 0; box: sizing 0;border:0;}
+body{
+    overflow-x: hidden;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+}
+
+.carousel-item img{
+    width: 20rem;
+    height: 80vh;
+
+}
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    cursor: pointer;
+    box-shadow: 4px 4px 4px 0px rgba(134, 192, 223, 0.5);
+
+
+}
+
+.card:hover {
+    background-color: #adceec;
+    color: #fff;
+}
+*card img{
+    min-width: 50%;
+    max-height: 200px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+
+
+
+}
+
+.icon{
+    font-size: 25px;
+}
+
+
+.icon1{
+    font-size: 25px;
+
+}
+.icon2{
+    font-size: 20px;
+
+}
+.container{
+    /* justify-content: space-between;
+     */
+    justify-content: space-evenly;
+    
+
+
+
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.059); /* Adjust background color and opacity */
+    backdrop-filter: blur(1px); /* Adjust blur radius */
+    -webkit-backdrop-filter: blur(3px); /* For Safari */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); /* Optional: Add a border */
+    
+}
+
